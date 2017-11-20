@@ -1,0 +1,25 @@
+I have attempted both the question as well as bonus:
+
+
+1). run the code by executing ./c.sh (runs on JAVA 7 in ubuntu)
+2). The code asks to enter number of admins, number of users initially.
+
+3). Refer to the menu list below to operate this code
+
+###############################################################################
+
+Enter "1 <number from admin list>" - Select Admin and create group
+Enter "2 <number from user list> <number from group list>" - Select user and request group
+Enter "3 <number from admin list> <number from group list>" - Select user and request group
+Enter "4 <number from admin list> <number from group list> " - Select admin and group and accept/ ignore requests
+Enter "5 <number from admin list> <number from group list> " - Select admin and delete group
+Enter "6 <number from group list> " - User leaving group
+Enter "7 <number from group list> <number from memberlist> " - Send message in group from member list
+Enter "8 <number from group list> <number from memberlist> <number from message list> " - reply to message in group from member list
+Enter "9 <source group from group list> <destination group from group list> <message number from source group > <member number from source group> " - Forward message from source group to destination group and member number from source group
+###############################################################################
+
+Assumptions-
+1). Only one admin per group
+2). Only one reply per message
+
